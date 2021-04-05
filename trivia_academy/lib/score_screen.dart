@@ -71,6 +71,7 @@ class ScoreScreen extends StatelessWidget {
               )
             ]),
             child: Center(
+              // ignore: deprecated_member_use
               child: FlatButton(
                 onPressed: () {
                   Navigator.popUntil(context, (route) => route.isFirst);

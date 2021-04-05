@@ -164,6 +164,7 @@ class _TriviaScreenState extends State<TriviaScreen> {
               )
             ]),
             child: Center(
+              // ignore: deprecated_member_use
               child: FlatButton(
                 onPressed: () {
                   verifyResponse();

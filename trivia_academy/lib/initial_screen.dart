@@ -25,6 +25,7 @@ class InitialScreen extends StatelessWidget {
             SizedBox(
               height: 88,
             ),
+            // ignore: deprecated_member_use
             FlatButton(
               child: Text(
                 'Começar',
